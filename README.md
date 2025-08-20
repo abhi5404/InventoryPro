@@ -15,10 +15,7 @@ A clean, modern **Inventory Management System** built with **React**, **TypeScri
 
 ##  Live Demo
 
-**Live demo might be temporarily unavailable.**  
-Keep an eye here for the deployment status:
-
--  [InventoryPro Live](https://inventory-pro-seven.vercel.app/login) (currently unreachable; deployment in progress)
+-  [InventoryPro Live](https://inventory-pro-seven.vercel.app/)
 
 ---
 
