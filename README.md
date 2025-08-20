@@ -1,126 +1,62 @@
-📦 InventoryPro – Smart Inventory Management System
+[//]: # ( Optionally replace placeholder URLs with your own badge URLs )
 
-A modern Inventory Management System built with React + TypeScript, designed to simplify product tracking, supplier management, and business insights with an elegant dashboard and innovative features.
+#  InventoryPro – Inventory Management System
 
-🌐 Live Demo: InventoryPro on Vercel
+[![Made with React](https://img.shields.io/badge/Made%20with-React-blue?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-‹›-blue)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/Styled%20with-Tailwind-green?logo=tailwind-css)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Bundler-Vite-orange?logo=vite)](https://vitejs.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+[![Deployment Status](https://img.shields.io/badge/Status-Pending-yellow)](#)
 
-🚀 Tech Stack
+A clean, modern **Inventory Management System** built with **React**, **TypeScript**, **TailwindCSS**, and **Vite**.
 
-⚛️ React + TypeScript – Component-driven UI
+---
 
-🎨 TailwindCSS – Modern, responsive styling
+##  Live Demo
 
-🔐 Firebase Auth – Secure authentication
+-  [InventoryPro Live](https://inventory-pro-seven.vercel.app/)
 
-🗄️ Firestore – Cloud database for inventory & suppliers
+---
 
-📊 Recharts – Visual analytics and dashboard statistics
+##  Features
 
-☁️ Vercel – Deployment & hosting
+- **Authentication & Role-Based Access** (Admin, Manager, Staff)  
+- **Product & Inventory Management**  
+  - SKUs, barcodes, categories, batch/expiry tracking, stock per warehouse  
+- **Purchasing & Sales Workflow**  
+  - Suppliers, Purchase Orders, GRNs, Quotations, Sales Orders, Returns  
+- **Stock Operations**  
+  - Transfers, Adjustments, Cycle Counts, FIFO / Weighted Avg valuation  
+- **Dashboard & Analytics**  
+  - KPIs like stock value, fast/slow movers, low-stock items  
+- **Notifications & Alerts**  
+  - Email/WhatsApp/Slack triggers for low stock, near expiry, delayed POs  
+- **Exports & Reporting**  
+  - CSV / Excel / PDF with customizable templates  
+- **Modern UI**  
+  - Tailwind-powered, responsive design, optional dark mode  
+- **Built for Performance**  
+  - Vite-powered dev experience with instant feedback  
 
-✨ Features
-🔑 Authentication
+---
 
-User Signup/Login with Firebase
+##  Project Tech Stack
 
-Protected routes for dashboard
+| Layer        | Technology                       |
+|--------------|----------------------------------|
+| **Frontend** | React + TypeScript               |
+| **Styling**  | TailwindCSS                      |
+| **Routing**  | React Router v6                  |
+| **Build Tool** | Vite                          |
+| **State**    | React Context + Hooks            |
+| **CI / CD**  | Vercel / Netlify (planned)       |
 
-📦 Inventory Management
+---
+Author
 
-Add/Edit/Delete products
+Abhijit Mondal – GitHub
+ • LinkedIn
 
-Track product stock, price & total value
-
-Real-time search & advanced filtering
-
-👥 Supplier Management
-
-Manage supplier details (name, contact, products supplied)
-
-Supplier overview in dedicated tab
-
-📊 Dashboard & Analytics
-
-Inventory statistics (low stock alerts, total value, item count)
-
-Interactive charts & graphs
-
-Business insights at a glance
-
-⚡ Productivity Features
-
-Export products/suppliers to CSV/Excel
-
-Dark/Light mode toggle 🌙☀️
-
-Fully responsive design for all devices
-
-📸 Screenshots
-🔐 Authentication
-
-Login & Signup pages with Firebase
-
-
-📊 Dashboard
-
-Modern UI with charts & product table
-
-
-👥 Suppliers
-
-Supplier management with quick actions
-
-
-🛠️ Installation
-
-Clone the repo
-
-git clone https://github.com/your-username/inventory-pro.git
-cd inventory-pro
-
-
-Install dependencies
-
-npm install
-
-
-Create Firebase Project & add config in .env
-
-VITE_FIREBASE_API_KEY=xxxx
-VITE_FIREBASE_AUTH_DOMAIN=xxxx
-VITE_FIREBASE_PROJECT_ID=xxxx
-VITE_FIREBASE_STORAGE_BUCKET=xxxx
-VITE_FIREBASE_MESSAGING_SENDER_ID=xxxx
-VITE_FIREBASE_APP_ID=xxxx
-
-
-Run the project
-
-npm run dev
-
-🌟 Future Enhancements
-
-AI-powered stock prediction 📈
-
-Barcode/QR code scanning for products
-
-Role-based access (Admin/Staff)
-
-Automated supplier reorder reminders
-
-Multi-warehouse management
-
-👨‍💻 Author
-
-Developed with ❤️ by Abhijit Mondal
-🔗 Portfolio
- | LinkedIn
- | GitHub
-
-⚡ InventoryPro – because managing stock shouldn’t feel outdated.
-
-Create a Pull Request
-
-📜 License
 
 This project is licensed under the MIT License.
