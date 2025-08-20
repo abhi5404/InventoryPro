@@ -1,139 +1,91 @@
-[//]: # ( Optionally replace placeholder URLs with your own badge URLs )
+📦 Inventory Pro
 
-#  InventoryPro – Inventory Management System
+An advanced Inventory Management System built with React + TypeScript, designed to simplify product and supplier management with real-time features, analytics, and a clean modern UI.
 
-[![Made with React](https://img.shields.io/badge/Made%20with-React-blue?logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-‹›-blue)](https://www.typescriptlang.org/)
-[![TailwindCSS](https://img.shields.io/badge/Styled%20with-Tailwind-green?logo=tailwind-css)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Bundler-Vite-orange?logo=vite)](https://vitejs.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
-[![Deployment Status](https://img.shields.io/badge/Status-Pending-yellow)](#)
+🔗 Live Demo: Inventory Pro (https://inventory-pro-seven.vercel.app/)
 
-A clean, modern **Inventory Management System** built with **React**, **TypeScript**, **TailwindCSS**, and **Vite**.
+🚀 Tech Stack
 
----
+Frontend: React + TypeScript, TailwindCSS
 
-##  Live Demo
+State Management: React Context API
 
--  [InventoryPro Live](https://inventory-pro-seven.vercel.app/)
+Routing: React Router DOM
 
----
+Authentication: Local storage–based session simulation (can be extended to Firebase/Auth0)
 
-##  Features
+Data Handling: Firestore/Mock JSON (based on environment)
 
-- **Authentication & Role-Based Access** (Admin, Manager, Staff)  
-- **Product & Inventory Management**  
-  - SKUs, barcodes, categories, batch/expiry tracking, stock per warehouse  
-- **Purchasing & Sales Workflow**  
-  - Suppliers, Purchase Orders, GRNs, Quotations, Sales Orders, Returns  
-- **Stock Operations**  
-  - Transfers, Adjustments, Cycle Counts, FIFO / Weighted Avg valuation  
-- **Dashboard & Analytics**  
-  - KPIs like stock value, fast/slow movers, low-stock items  
-- **Notifications & Alerts**  
-  - Email/WhatsApp/Slack triggers for low stock, near expiry, delayed POs  
-- **Exports & Reporting**  
-  - CSV / Excel / PDF with customizable templates  
-- **Modern UI**  
-  - Tailwind-powered, responsive design, optional dark mode  
-- **Built for Performance**  
-  - Vite-powered dev experience with instant feedback  
+UI Enhancements: Dark/Light Mode Toggle, Responsive Design, Chart Visualizations
 
----
+Deployment: Vercel
 
-##  Project Tech Stack
+✨ Features
+🔐 Authentication & Security
 
-| Layer        | Technology                       |
-|--------------|----------------------------------|
-| **Frontend** | React + TypeScript               |
-| **Styling**  | TailwindCSS                      |
-| **Routing**  | React Router v6                  |
-| **Build Tool** | Vite                          |
-| **State**    | React Context + Hooks            |
-| **CI / CD**  | Vercel / Netlify (planned)       |
+User Signup & Login with validations
 
----
+Local session handling using localStorage
 
-##  Project Setup
+📊 Dashboard
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/inventorypro.git
-cd inventorypro
+Manage Products (Add, Edit, Delete)
 
-# 2. Install dependencies
-npm install
+Live Search & Filter
 
-# 3. Initialize Tailwind (if needed)
-npx tailwindcss init -p
+Export product list to CSV
 
-# 4. Run in dev mode
-npm run dev
-Visit http://localhost:5173 (or the Vite default URL) to explore the app.
+Inventory Statistics (Total Value, Low Stock Alerts)
 
-Demo Credentials
-Use these accounts to log in during development:
+Data visualization with charts
 
-Admin
+👥 Supplier Management
 
-Email: admin@company.com
+Add, Edit, and Delete Suppliers
 
-Password: admin123
+Export supplier list to CSV
 
-Manager
+🎨 UI & Experience
 
-Email: manager@company.com
+Responsive design with TailwindCSS
 
-Password: manager123
+Dark/Light Mode Toggle
 
-Screenshots
-(Check or create this directory yourself)
+Smooth navigation with SPA routing
 
-Login Page: docs/screenshots/login.png
+📩 Contact Page
 
-Dashboard View: docs/screenshots/dashboard.png
+Contact form with basic validation
 
-Build & Deployment
-bash
-Copy
-Edit
-# Build for production
-npm run build
+📂 Project Structure
+src/
+│── components/     # Reusable UI components (Navbar, DarkModeToggle, ProtectedRoute)
+│── context/        # Auth context for session handling
+│── pages/          # Application pages (Home, Login, Signup, Dashboard, Suppliers, Contact)
+│── firebase.js     # Firebase config (optional if used)
+│── App.tsx         # Main app with routing
+│── main.tsx        # Entry point
 
-# Preview the build locally
-npm run preview
-Push your preferred branch to deploy on Vercel, Netlify, etc.
+🌍 Deployment
 
-Roadmap
- Supplier Scorecards (on-time % / defect %)
+Deployed on Vercel
 
- Demand Forecasting AI
+Continuous deployment enabled (auto-builds on every commit)
 
- Granular Role Permissions
+🤝 Contribution
 
- Custom PDF Branding
+Want to improve Inventory Pro? Feel free to fork and contribute!
 
- Offline PWA + Barcode Scanning
+Fork the repository
 
-Contributing
-Fork the repo
+Create a new branch: git checkout -b feature-xyz
 
-Create a feature branch (git checkout -b feature/xyz)
+Commit changes: git commit -m "Add xyz feature"
 
-Commit gracefully (git commit -m "Add xyz")
+Push the branch: git push origin feature-xyz
 
-Push and open a PR
+Create a Pull Request
 
-I’ll review and merge
+📜 License
 
-License
-This project is licensed under MIT. See LICENSE for details.
-
-Author
-Abhijit Mondal – GitHub • LinkedIn
-
-pgsql
-Copy
-Edit
-
----
+This project is licensed under the MIT License.
